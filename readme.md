@@ -54,5 +54,16 @@ Libraries:
     
     - @fastify/cookie
         you can get information about the user even if he is not logged in
+    
+    - D vitest
+        can make test in application
+    
+    - D supertest 
+        You can test the application with out the server on
+    
+    - D tsup
+        Help us to convert the code .ts in .js and  make deploy
+        script: "build": "tsup src --out-dir build"
+        node build/server.js
 
     
