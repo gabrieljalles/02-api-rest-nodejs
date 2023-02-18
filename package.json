@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Blibliotecas usadas:\r     - Fastify (better than express : typescript included,)\r     -",
   "main": "index.js",
+  "engines": { 
+    "node": " >=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
@@ -21,6 +24,7 @@
     "supertest": "^6.3.3",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
+    "sqlite3": "^5.1.4",
     "vitest": "^0.28.5"
   },
   "dependencies": {
@@ -28,7 +32,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.13.0",
     "knex": "^2.4.2",
-    "sqlite3": "^5.1.4",
+    "pg": "^8.9.0",
     "tsx": "^3.12.3",
     "zod": "^3.20.6"
   }
